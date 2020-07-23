@@ -11,7 +11,7 @@ A career in RPA is considered to be very effective and the emerging graduates ca
 
 ## _Why UiPath?_
 
-**[UiPath](https://www.uipath.com/)**  is a  _Windows-based desktop_  Robotic Process Automation software tool architects to automate business processes within Enterprises. This tool enables organizations to execute processes more efficiently by  _automa?ting monotonous and repetitive tasks_.
+**[UiPath](https://www.uipath.com/)**  is a  _Windows-based desktop_  Robotic Process Automation software tool architects to automate business processes within Enterprises. This tool enables organizations to execute processes more efficiently by  _automating monotonous and repetitive tasks_.
 
 ## _Components of UiPath_
 
