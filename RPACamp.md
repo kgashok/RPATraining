@@ -102,3 +102,10 @@ _Notes : For unique identification, use item/model number_
 -   Task 2
 -   Task 3
 -   Task 4
+
+## Notes 
+- Android Automation 
+	     -[https://connect.uipath.com/marketplace/components/android-automation](https://connect.uipath.com/marketplace/components/android-automation)
+
+- iOS Automation 
+	- [https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328](https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328)
