@@ -27,7 +27,7 @@ Executes the processes built in studio, as a human does. Robots can work unatten
 
 A web application that enables you to deploy, schedule, monitor and manage Robots and Processes, while business exception handling is available through centralized work queues.
 
-## _Things to know before going to start automation_
+## _Things to know prior to Automation_
 
 -   **Workflow Types and Activities**
 
