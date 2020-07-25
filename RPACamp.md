@@ -1,10 +1,10 @@
-  
+
 # RPA Camp
 
 ## Action items 
 1. The first BOT in 10 min 
 2. Versioning and tracking of BOTs
-3. Run a workshop on stackedit.io
+
 
 ## _What is RPA?_
 
@@ -109,8 +109,13 @@ _Notes : For unique identification, use item/model number_
 -   Task 4
 
 ## Notes 
-- Android Automation 
+
+### Stand-alone mobile automation
+
+  - Android Automation 
 	     -[https://connect.uipath.com/marketplace/components/android-automation](https://connect.uipath.com/marketplace/components/android-automation)
 
-- iOS Automation 
+  - iOS Automation 
 	- [https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328](https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328)
+
+
