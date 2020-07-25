@@ -4,7 +4,7 @@
 ## Action items 
 1. The first BOT in 10 min 
 2. Versioning and tracking of BOTs
-
+3. Run a workshop on stackedit.io
 
 ## _What is RPA?_
 
