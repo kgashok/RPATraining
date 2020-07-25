@@ -1,6 +1,11 @@
 
 # RPA Camp
 
+## Action items 
+1. The first BOT in 10 min 
+2. Versioning and tracking of BOTs
+
+
 ## _What is RPA?_
 
 Robotic Process Automation or RPA handles repetitive business processes using software robots to perform tasks and trigger error-free responses 24/7. It’s a type of software that enables  _**automation of even complex digital processes**_  by performing them much in the way that human users would perform them.
