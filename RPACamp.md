@@ -1,145 +1,116 @@
-<!DOCTYPE html>
-<html>
+  
+# RPA Camp
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RPA Camp</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
+## Action items 
+1. The first BOT in 10 min 
+2. Versioning and tracking of BOTs
 
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#rpa-camp">RPA Camp</a>
-<ul>
-<li><a href="#action-items">Action items</a></li>
-<li><a href="#what-is-rpa">What is RPA?</a></li>
-<li><a href="#why-rpa">Why RPA?</a></li>
-<li><a href="#why-uipath">Why UiPath?</a></li>
-<li><a href="#components-of-uipath">Components of UiPath</a></li>
-<li><a href="#things-to-know-prior-to-automation">Things to know prior to Automation</a></li>
-<li><a href="#week-1-----notepad-automation">-   Week 1  -  Notepad Automation</a></li>
-<li><a href="#week-2-----web-feeding">-   Week 2  -  Web Feeding</a></li>
-<li><a href="#week-3-----web-scraping">-   Week 3  -  Web Scraping</a></li>
-<li><a href="#week-4-----xml-automation---1">-   Week 4  -  XML Automation - 1</a></li>
-<li><a href="#week-5-----xml-automation---2">-   Week 5  -  XML Automation - 2</a></li>
-<li><a href="#week-6-----ui-explorer">-   Week 6  -  Ui Explorer</a></li>
-<li><a href="#week-7-----final-rpa-project">-   Week 7  -  Final RPA Project</a></li>
-<li><a href="#notes">Notes</a></li>
-</ul>
-</li>
-</ul>
 
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="rpa-camp">RPA Camp</h1>
-<h2 id="action-items">Action items</h2>
-<ol>
-<li>The first BOT in 10 min</li>
-<li>Versioning and tracking of BOTs</li>
-</ol>
-<h2 id="what-is-rpa"><em>What is RPA?</em></h2>
-<p>Robotic Process Automation or RPA handles repetitive business processes using software robots to perform tasks and trigger error-free responses 24/7. It’s a type of software that enables  <em><strong>automation of even complex digital processes</strong></em>  by performing them much in the way that human users would perform them.</p>
-<h2 id="why-rpa"><em>Why RPA?</em></h2>
-<p>A career in RPA is considered to be very effective and the emerging graduates can easily expect a major share of employment opportunities across the world. Also, pay packages with good skill-sets in this field are relatively higher when compared to other fields. RPA is implemented in various sectors like Education, Banking and Finance, Insurance, Health care and Manufacturing etc., across the world. Types of applications automated using RPA are as Windows, Web, SAP and Mainframe etc.</p>
-<h2 id="why-uipath"><em>Why UiPath?</em></h2>
-<p><strong><a href="https://www.uipath.com/">UiPath</a></strong>  is a  <em>Windows-based desktop</em>  Robotic Process Automation software tool architects to automate business processes within Enterprises. This tool enables organizations to execute processes more efficiently by  <em>automating monotonous and repetitive tasks</em>.</p>
-<h2 id="components-of-uipath"><em>Components of UiPath</em></h2>
-<ul>
-<li><strong>UiPath Studio</strong></li>
-</ul>
-<p>An advance tool that enables you to design automation processes in a visual manner, through diagrams.</p>
-<ul>
-<li><strong>UiPath Robot</strong></li>
-</ul>
-<p>Executes the processes built in studio, as a human does. Robots can work unattended (run without human supervision) or as assistants (a human trigger the process).</p>
-<ul>
-<li><strong>UiPath Orchestrator</strong></li>
-</ul>
-<p>A web application that enables you to deploy, schedule, monitor and manage Robots and Processes, while business exception handling is available through centralized work queues.</p>
-<h2 id="things-to-know-prior-to-automation"><em>Things to know prior to Automation</em></h2>
-<ul>
-<li><strong>Workflow Types and Activities</strong></li>
-</ul>
-<p>Multiple types of workflows are available in Studio (sequences, flowcharts and transactional business processes) that help you build your automation workflow according to your needs.  <a href="https://docs.uipath.com/activities/docs/workflow-system">more…</a></p>
-<ul>
-<li><strong>Recorder Functionality</strong></li>
-</ul>
-<p>The easiest manner to create workflows is by using the record feature. Four types of recordings are available:  <em>Basic, Desktop, Web and Citrix.</em>  The first two can help you automate desktop applications, while the others enable you to properly handle web apps and virtual environments.  <a href="https://www.uipath.com/developers/video-tutorials/recording">more…</a></p>
-<ul>
-<li><strong>Selectors</strong></li>
-</ul>
-<p>The selector is a string of characters (VB expression) used to identify objects on the screen. The selector is one of the properties of UI activities and has an XML format. All the activities in UiPath Studio related to graphical elements have the selector property.  <a href="https://docs.uipath.com/studio/docs/about-selectors">more…</a></p>
-<h2 id="week-1-----notepad-automation">-   <strong>Week 1</strong>  -  <em>Notepad Automation</em></h2>
-<ul>
-<li>Open the notepad, type “Hello world” and save the file.</li>
-<li>Search about “UiPath” in google, scrap the data given below and save it in notepad as “Uipath.txt” in desktop.</li>
-</ul>
-<p><img src="https://raw.githubusercontent.com/Pavithratrdev/RPATraining/master/About%20UiPath.jpeg" alt="About UiPath"></p>
-<p><em>Notes : Basic/Desktop Recording will help</em></p>
-<h2 id="week-2-----web-feeding">-   <strong>Week 2</strong>  -  <em>Web Feeding</em></h2>
-<ul>
-<li>
-<p>Read the data from  <a href="https://pavithratrdev.github.io/RPATraining/Web_Details.xlsx">Student Details</a>  and feed the data in  <a href="https://rb.gy/fgwfmc">Upload…</a></p>
-<p><em>Notes : Use activities like Click, TypeInto, SelectItem…</em></p>
-</li>
-</ul>
-<h2 id="week-3-----web-scraping">-   <strong>Week 3</strong>  -  <em>Web Scraping</em></h2>
-<ul>
-<li>Search a product from Flipkart…</li>
-<li>Search a product from Amazon…</li>
-<li>Compare the prices and display the lowest one.</li>
-</ul>
-<p><em>Notes : For unique identification, use item/model number</em></p>
-<h2 id="week-4-----xml-automation---1">-   <strong>Week 4</strong>  -  <em>XML Automation - 1</em></h2>
-<ul>
-<li>Task 1</li>
-<li>Task 2</li>
-<li>Task 3</li>
-<li>Task 4</li>
-</ul>
-<h2 id="week-5-----xml-automation---2">-   <strong>Week 5</strong>  -  <em>XML Automation - 2</em></h2>
-<ul>
-<li>Task 1</li>
-<li>Task 2</li>
-<li>Task 3</li>
-<li>Task 4</li>
-</ul>
-<h2 id="week-6-----ui-explorer">-   <strong>Week 6</strong>  -  <em>Ui Explorer</em></h2>
-<ul>
-<li>Task 1</li>
-<li>Task 2</li>
-<li>Task 3</li>
-<li>Task 4</li>
-</ul>
-<h2 id="week-7-----final-rpa-project">-   <strong>Week 7</strong>  -  <em>Final RPA Project</em></h2>
-<ul>
-<li>Task 1</li>
-<li>Task 2</li>
-<li>Task 3</li>
-<li>Task 4</li>
-</ul>
-<h2 id="notes">Notes</h2>
-<ul>
-<li>
-<p>Android Automation<br>
--<a href="https://connect.uipath.com/marketplace/components/android-automation">https://connect.uipath.com/marketplace/components/android-automation</a></p>
-</li>
-<li>
-<p>iOS Automation</p>
-<ul>
-<li><a href="https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328">https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328</a></li>
-</ul>
-</li>
-</ul>
+## _What is RPA?_
 
-    </div>
-  </div>
-</body>
+Robotic Process Automation or RPA handles repetitive business processes using software robots to perform tasks and trigger error-free responses 24/7. It’s a type of software that enables  _**automation of even complex digital processes**_  by performing them much in the way that human users would perform them.
 
-</html>
+## _Why RPA?_
+
+A career in RPA is considered to be very effective and the emerging graduates can easily expect a major share of employment opportunities across the world. Also, pay packages with good skill-sets in this field are relatively higher when compared to other fields. RPA is implemented in various sectors like Education, Banking and Finance, Insurance, Health care and Manufacturing etc., across the world. Types of applications automated using RPA are as Windows, Web, SAP and Mainframe etc.
+
+## _Why UiPath?_
+
+**[UiPath](https://www.uipath.com/)**  is a  _Windows-based desktop_  Robotic Process Automation software tool architects to automate business processes within Enterprises. This tool enables organizations to execute processes more efficiently by  _automating monotonous and repetitive tasks_.
+
+## _Components of UiPath_
+
+-   **UiPath Studio**
+
+An advance tool that enables you to design automation processes in a visual manner, through diagrams.
+
+-   **UiPath Robot**
+
+Executes the processes built in studio, as a human does. Robots can work unattended (run without human supervision) or as assistants (a human trigger the process).
+
+-   **UiPath Orchestrator**
+
+A web application that enables you to deploy, schedule, monitor and manage Robots and Processes, while business exception handling is available through centralized work queues.
+
+## _Things to know prior to Automation_
+
+-   **Workflow Types and Activities**
+
+Multiple types of workflows are available in Studio (sequences, flowcharts and transactional business processes) that help you build your automation workflow according to your needs.  [more....](https://docs.uipath.com/activities/docs/workflow-system)
+
+-   **Recorder Functionality**
+
+The easiest manner to create workflows is by using the record feature. Four types of recordings are available:  _Basic, Desktop, Web and Citrix._  The first two can help you automate desktop applications, while the others enable you to properly handle web apps and virtual environments.  [more....](https://www.uipath.com/developers/video-tutorials/recording)
+
+-   **Selectors**
+
+The selector is a string of characters (VB expression) used to identify objects on the screen. The selector is one of the properties of UI activities and has an XML format. All the activities in UiPath Studio related to graphical elements have the selector property.  [more....](https://docs.uipath.com/studio/docs/about-selectors)
+
+## -   **Week 1**  -  _Notepad Automation_
+
+-   Open the notepad, type "Hello world" and save the file.
+-   Search about "UiPath" in google, scrap the data given below and save it in notepad as “Uipath.txt” in desktop.
+  
+![About UiPath](https://raw.githubusercontent.com/Pavithratrdev/RPATraining/master/About%20UiPath.jpeg)  
+
+_Notes : Basic/Desktop Recording will help_
+
+## -   **Week 2**  -  _Web Feeding_
+
+-   Read the data from  [Student Details](https://pavithratrdev.github.io/RPATraining/Web_Details.xlsx)  and feed the data in  [Upload..](https://rb.gy/fgwfmc)  
+    
+    _Notes : Use activities like Click, TypeInto, SelectItem..._
+    
+
+  
+
+## -   **Week 3**  -  _Web Scraping_
+
+-   Search a product from Flipkart..
+-   Search a product from Amazon..
+-   Compare the prices and display the lowest one.
+
+_Notes : For unique identification, use item/model number_
+
+  
+
+## -   **Week 4**  -  _XML Automation - 1_
+
+-   Task 1
+-   Task 2
+-   Task 3
+-   Task 4
+
+  
+
+## -   **Week 5**  -  _XML Automation - 2_
+
+-   Task 1
+-   Task 2
+-   Task 3
+-   Task 4
+
+  
+
+## -   **Week 6**  -  _Ui Explorer_
+
+-   Task 1
+-   Task 2
+-   Task 3
+-   Task 4
+
+  
+
+## -   **Week 7**  -  _Final RPA Project_
+
+-   Task 1
+-   Task 2
+-   Task 3
+-   Task 4
+
+## Notes 
+- Android Automation 
+	     -[https://connect.uipath.com/marketplace/components/android-automation](https://connect.uipath.com/marketplace/components/android-automation)
+
+- iOS Automation 
+	- [https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328](https://forum.uipath.com/t/mobile-device-automation-with-uipath-studio-20-4-community-preview-release/208328)
